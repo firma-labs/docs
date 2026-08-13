@@ -1,0 +1,759 @@
+---
+title: "People Science & Ops"
+description: "The instrument set — traits, assessment and the operating playbook."
+---
+
+**firma labs · seedbase · CIK · FIT · firma edge · Firma Photon · Onym**
+v9.0 (working) · April 2026 · Sovereign Internal · **NOT FOR DISTRIBUTION**
+
+> This is a working reconciliation of the **Firma Labs Handbook v1.0** (public-facing, April 2026) with the **People Ops Playbook v4.0** (internal) and the **Org Blueprint v3.1**. Where the handbook softened or reframed something, the internal reality still governs operations. Where the two conflict, **OPEN** sections flag the decision still owed.
+>
+> This document is not distributed to candidates, new hires, or anyone outside the Vision Council + People Ops. $&#123;CPO&#125;, $&#123;DISCERNMENT_LEAD&#125;, $&#123;FOUNDER_CFO&#125;, $&#123;FOUNDER_CEO&#125; only. Anything that becomes public lives in the handbook and in the public Playbook derivatives — not here.
+>
+> **Token convention:** This document uses `$&#123;ROLE_TOKEN&#125;` placeholders in place of names and `$&#123;SALARY_TOKEN&#125;` placeholders in place of dollar figures. The mapping lives in `people-ops.env`, which is gitignored and excluded from Obsidian indexing. The master doc stays searchable and shareable; identifying detail stays local. To read the doc with live values, open `people-ops.env` in the same folder.
+
+---
+
+## 00 — STATUS KEY
+
+- `LOCKED` — decided, in force, do not re-open without Vision Council
+- `ACTIVE` — currently operating this way in practice
+- `IN PROGRESS` — policy under design, not yet in force, not yet quotable to candidates
+- `PROPOSED` — drafted but not yet decided
+- `OPEN` — options on the table; $&#123;FOUNDER_CEO&#125; call needed
+- `HANDBOOK` — public-facing version in the Firma Labs Handbook
+- `INTERNAL` — internal operational truth (may differ from HANDBOOK framing)
+
+**Token convention.** This document uses `$&#123;ROLE_TOKEN&#125;` placeholders in place of names and `$&#123;SALARY_TOKEN&#125;` placeholders in place of dollar figures. The mapping lives in `people-ops.env`. The doc reads coherently without the .env file — every token is descriptive in context. To see live values, open `people-ops.env` alongside this file.
+
+---
+
+## 01 — WHAT CHANGED FROM v4.0 → v9.0
+
+The Firma Labs Handbook v1.0 landed in April 2026. It is CC0-licensed, public-facing, and written as the doc a candidate reads start to finish before joining. It introduced or shifted the following:
+
+- **"Family before purpose"** promoted from culture language to the operating system itself
+- **"Powerful people with a moral framework"** as the core hiring predicate
+- **10 honor values + "Love for neighbor"** replaces the public-facing culture language
+- **5 ethos commitments** (Honesty as infrastructure · Purpose over objectives · Protect the vulnerable · Stewardship over ownership · Radical faith in the impossible) — the "how we decide" layer
+- **"We would rather you fail at greatness than succeed at your own limits"** — the performance policy, compressed
+- **5 physical anchors** (Dallas HQ · The Ranch · Philippines · Panama · Puerto Rico retreat)
+- **"Fragmints"** surfaced as the public-facing on-chain representation of Economic Rights
+- **Policies chapter** — minimal, direct, six items; $&#123;CPO&#125; named as the second escalation after the reporting senior
+
+**v6.0 additions:**
+- **Fear named explicitly** — across hiring criteria, foundational posture, growth, and how we leave. Fear was the thing the whole document was trying to disarm without naming it. Now named.
+
+**v7.0 additions:**
+- **"On Fear" promoted to a top-level locked section (§04).** Doctrine, not commentary. Top-level, locked, un-buryable, cross-referenced from Hiring (§05), Growth (§08), and How We Leave (§13).
+
+**v8.0 changes:**
+- **Compensation §06** rewritten as **policy under construction**. The structural skeleton is preserved (three layers: Salary, Economic Rights, Trust; salary class table). The mechanics — Trust activation, vesting, departure, yield, tithe, beneficiary rules — are marked `IN PROGRESS` and explicitly not in force.
+- **Benefits §07** rewritten as **policy under construction**. Healthcare, time off, retirement, connectivity, education, agentics training, daily provision, deployment support — all `IN PROGRESS`.
+- **Economic Rights terminology fix.** The formal name of the second compensation layer is **Economic Rights** (not "Economic Rights Tokens"). *Fragmints* is the on-chain representation of Economic Rights, not a separate thing.
+- **Growth §08 class system rewritten as `IN PROGRESS`.** The earlier four-class framework is no longer in force.
+- **§18 Open Questions** restructured into `IN PROGRESS` workstreams (§18.1) and discussion items (§18.2).
+
+**v9.0 changes (this version):**
+- **Names and salary figures extracted to `people-ops.env`.** Identifying details (people's names, specific dollar amounts) replaced with `$&#123;ROLE_TOKEN&#125;` and `$&#123;SALARY_TOKEN&#125;` placeholders. The .env file is gitignored and excluded from Obsidian indexing. The master doc itself becomes safe to commit, share, and search without exposing personnel detail or compensation figures.
+- **Convention:** `$&#123;ROLE_TOKEN&#125;` for people (e.g. `$&#123;CPO&#125;`, `$&#123;PARTNER_FIT&#125;`), `$&#123;SALARY_TOKEN&#125;` for compensation values (e.g. `$&#123;F_CLASS_SALARY&#125;`).
+- **Reading instructions:** master doc is read alongside `people-ops.env` when full detail is needed. Without the .env file, the doc still reads cleanly — every token is descriptive enough to make sense in context.
+
+None of the doctrine changed. The handbook is still the **public voice**. This doc is still the **internal instrument**. v9 makes it safer to keep that internal instrument in version control and second-brain without the names and numbers leaking.
+
+---
+
+---
+
+## 02 — TWO-LAYER LANGUAGE ARCHITECTURE `LOCKED`
+
+People Ops now operates two languages in parallel. They do not contradict — the handbook is the front door, this document is the engine room.
+
+| | HANDBOOK (public) | INTERNAL (this doc) |
+|---|---|---|
+| **Culture layer** | 10 honor values + Love for neighbor | 7 Canon-rooted core values (still the hiring instrument) |
+| **Ethos layer** | 5 commitments (how we decide) | Same 5, mapped to Canon + Foundational Principles |
+| **Growth layer** | Class system being redesigned (`IN PROGRESS` — see §08) | Class system being redesigned + F/S/G/C/P/A operational compensation bands |
+| **Compensation layer** | Salary · Economic Rights (Fragmints on-chain) · Trust | Same — formal name is *Economic Rights*; *Fragmints* is the on-chain representation. Trust mechanics `IN PROGRESS` (see §06) |
+| **Governance layer** | Silent — not in handbook | House of Saints, DNA, EDEN, Vision Council |
+| **Theology layer** | Silent — not in handbook | Canon, Priestly Mandate, Covenant, spiritual councils |
+
+**Rule:** anything a candidate sees before Day 1 uses handbook language. Anything internal uses internal language. The two must never be visible in the same document to the same audience.
+
+---
+
+## 03 — THE TWO-LAYER VALUES SYSTEM `LOCKED`
+
+### 03.1 — Handbook Culture Layer (Public)
+
+The **10 honor values + Love for neighbor** — what we expect of ourselves and each other. Used in: the handbook, onboarding, culture conversations, all-hands, public-facing comms.
+
+| Value | What it means |
+|---|---|
+| Meekness | Strength held lightly |
+| Servant leadership | Authority that serves |
+| Integrity | The same when nobody is watching |
+| Selflessness | The work above the self |
+| Boldness | Willingness to say the true thing |
+| Humility | Willingness to be corrected |
+| Radical generosity | Default to giving, not guarding |
+| Courageous transparency | Say it plainly, say it early |
+| Dreamers | Who see what isn't there yet |
+| Doers | Who build what they see |
+| **Love for neighbor** | The whole reason any of this is worth doing |
+
+### 03.2 — Handbook Ethos Layer (Public)
+
+**5 commitments** — how we decide when no policy fits. Used in: hard calls, leadership conversations, the moment a partner has to make a judgment.
+
+1. **Honesty as infrastructure** — load-bearing, not performed
+2. **Purpose over objectives** — a person with purpose outperforms a person with objectives over time
+3. **Protect the vulnerable** — does this make life worse for the person with the least power?
+4. **Stewardship over ownership** — we hold what we've built in trust
+5. **Radical faith in the impossible** — the only rational response to a mission this large
+
+### 03.3 — Internal Hiring Instrument (7 Canon Values) `LOCKED`
+
+The 7 values extracted from Canon, Vision, Agentic Covenant, and Priestly Mandate. **This is what $&#123;CPO&#125;, hiring managers, $&#123;FOUNDER_CEO&#125;, and $&#123;DISCERNMENT_LEAD&#125; actually score against in interviews.** The honor values and ethos are the culture someone joins; the 7 Canon values are the filter they pass through to get in.
+
+1. **Stewardship Over Ownership** — Nothing here is yours
+2. **Abundance Over Extraction** — Scarcity is the root of Mammon
+3. **Honesty as Infrastructure** — Truth told early, often, without dressing
+4. **Meekness** — Strength held lightly; power with restraint
+5. **Purpose Over Objectives** — Compounding, not collapsing
+6. **Protect the Vulnerable** — Complicity is not neutrality
+7. **The Ratchet Only Moves Forward** — Deeper, never shallower
+
+> **Note:** Values 1, 3, 4, 5, 6 all have public-facing mirrors in the handbook. Values 2 (Abundance) and 7 (The Ratchet) are internal-only — they carry Canon-specific framing that doesn't translate cleanly to a public document.
+
+### 03.4 — Foundational Principles (Operational Posture) `LOCKED`
+
+Under the values sits the operational posture. From `decisive-peace.html`:
+
+1. **Agentic-First** — 60 humans operating like 600
+2. **Provision Precedes Labor** — 3-layer compensation, boring money is holy money
+3. **Anti-Mammon / Anti-Baal** — No lump sum, no exit event, no clawback for speaking truth
+4. **Decisive Peace** — OODA under covenant; fast decisions from union, not hurry
+
+> Fear is named separately and at top-level (§04). It is doctrine, not a footnote under values.
+
+---
+
+## 04 — ON FEAR `LOCKED`
+
+Fear is not a value. Fear is not an ethos. Fear is not a principle. Fear is a posture this organization explicitly rejects — and we name it directly because fear that goes unnamed becomes the loudest voice in the room. Fear that is named loses its grip.
+
+Doctrine, not commentary. Top-level by design.
+
+### 04.1 — The Doctrine
+
+> **Fear is not a sin; it is a signal.**
+>
+> The work asks you to receive the signal, name it honestly, and act anyway. The covenant holds whether or not the fear holds.
+>
+> We hire people who have learned to do this. We build a culture where doing it is normal. We protect the people who do it from being punished for it.
+
+### 04.2 — What This Means In Practice
+
+- **Fear is information, not authority.** You feel it. You name it. You proceed.
+- **Fear-shaped decisions are the failure mode we care about.** Staying small, hitting safe targets, taking shots you knew you could make — these are the decisions a quiet fear produces. They look like prudence. They are not.
+- **The honor value of "Boldness — willingness to say the true thing" is fear's antagonist at the level of speech.** Boldness is not the absence of fear. It is the decision to speak anyway.
+- **"Radical faith in the impossible" is fear's antagonist at scale.** Faith is not naïveté about how hard the work is. It is the refusal to let fear of the work's size become the reason it doesn't get built.
+- **Decisive Peace is fear's antagonist as tempo.** Paralysis is fear in slow motion. Rashness is fear in fast motion. Decisive Peace is what fear cannot produce.
+
+### 04.3 — The Three Antagonists Of Fear
+
+| Antagonist | Layer | Where It Lives |
+|---|---|---|
+| **Boldness** | Speech | Honor value — "willingness to say the true thing" |
+| **Radical Faith** | Scale | Ethos #5 — "the only rational response to a mission this large" |
+| **Decisive Peace** | Tempo | Foundational Principle #4 — "fast decisions from union, not hurry" |
+
+These are not the same thing. We name all three because fear shows up at all three layers — what you say, what you attempt, and how fast you move when you do.
+
+### 04.4 — Where This Shows Up Structurally
+
+- **In hiring (§05)** — *Unintimidated* as the 7th hard criterion. We screen for it. We score green/red signals on it.
+- **In growth (§09)** — fear-shaped careers (safe shots, plateau, coasting) are named as the failure mode, not a quiet preference.
+- **In leaving (§14)** — nobody stays at Firma Labs out of fear. Going in peace is honored, including the leaving that comes from God saying go.
+- **In Anti-Baal (§06.5)** — no clawback for speaking truth. Compensation does not become a leash, self-imposed or otherwise.
+
+### 04.5 — The Cultural Discipline
+
+We do not pretend fear isn't real. We pretend we don't notice it, and that pretense is what kills the work. **Naming fear is how Firma Labs stays a place where the true thing can still be said out loud.**
+
+This is why §04 sits where it does — above hiring, above compensation, above growth. Not because fear is more important than those things, but because all of those things bend wrong if fear isn't named first.
+
+---
+
+## 05 — HIRING — WHO WE HIRE AND HOW `LOCKED`
+
+### 05.1 — The Hiring Predicate (Handbook Language)
+
+> **Powerful people with a moral framework.**
+
+Not high performers. Not talent. Powerful — carries weight, moves things, doesn't wait for permission. Paired with a moral framework so load-bearing that we never have to ask where they are or what they're doing.
+
+### 05.2 — The 7 Hard Criteria
+
+Used in first-pass resume/application filtering and Stage 1 screen:
+
+1. **Powerful** — they would still be doing the right work without direction
+2. **Moral framework** — load-bearing, whatever it is
+3. **Purpose over career arc** — compelled by what we're building, not optimizing for next title
+4. **Willing to deploy** — Patagonia, Namibia, Kazakhstan excites them
+5. **Agentic-fluent** — already uses agentic leverage, or hungry to learn
+6. **Radical faith** — believes the impossible is often just the un-attempted
+7. **Unintimidated** — they don't make decisions from fear. Not fear of failure, fear of looking foolish, fear of the room, fear of the unknown country, fear of the spiritual dimension of the work. Fear is information they receive but not authority they obey. Sits next to Radical Faith — faith is the affirmative posture, unintimidated is the negative one. **Internal-only criterion** — the handbook's six are the public version; this is what we score in interviews. See §04 for the underlying doctrine.
+
+### 05.3 — What We Do Not Hire For (Handbook)
+
+- Not resumes
+- Not pedigree
+- Not "culture fit" as it's usually meant
+- **Character and capacity** — and we interview to understand both
+
+### 05.4 — The Five-Stage Pipeline `LOCKED`
+
+Every hire — senior, mid, staff — passes through all five stages. No exceptions. $&#123;DISCERNMENT_LEAD&#125;'s stage is non-negotiable. 48-hour offer window.
+
+| Stage | Time | Owner | What's Tested |
+|---|---|---|---|
+| **1 — Screen** | 30 min | $&#123;CPO&#125; | Purpose Over Objectives · Abundance Over Extraction · Mission alignment |
+| **2 — Technical** | 60 min | Hiring manager ($&#123;CTO&#125; eng · $&#123;CMO&#125; mkt · $&#123;PARTNER_FIT&#125; FIT · $&#123;PARTNER_PRODUCT&#125; product · $&#123;TEAM_FIRMA_LABS_10&#125; hardware) | The Ratchet · Honesty as Infrastructure · Domain capability |
+| **3 — Leadership** | 45–60 min | $&#123;FOUNDER_CEO&#125; (senior+) or relevant senior ($&#123;PARTNER_SEEDBASE&#125; seedbase · $&#123;PARTNER_CIK_DEPLOYMENT&#125; CIK · $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125; FIT) | Stewardship · Purpose · The 10-year question |
+| **4 — Discernment** | $&#123;DISCERNMENT_LEAD&#125; sets format | $&#123;DISCERNMENT_LEAD_FULL&#125; | Meekness · Protect the Vulnerable · Heart posture |
+| **5 — Offer** | 48-hr window | $&#123;CPO&#125; + $&#123;FOUNDER_CFO&#125; | Entity routing, full comp explained, decision |
+
+**$&#123;DISCERNMENT_LEAD&#125;'s stage is a gate, not a checkbox.** If $&#123;DISCERNMENT_LEAD&#125; pauses, the process pauses. She is not overruled. $&#123;FOUNDER_CEO&#125; does not override her. This is locked.
+
+### 05.5 — The Filter Question
+
+> **Can I build with this person for ten years, and will they leave every room, every project, and every person better than they found them?**
+
+**If the answer is anything other than yes — the answer is no.**
+
+### 05.6 — Green/Red Signal Summary (Interview Scoring)
+
+| Value | Green | Red |
+|---|---|---|
+| Stewardship | Talks about "the team I serve" | Talks about what they accumulated (title, headcount, budget) |
+| Abundance | Generosity is default; past stories show giving credit | Defensiveness around turf, credit, resources |
+| Honesty | Names failures without spin; says "I don't know" | Every failure has a convenient villain; polished to emptiness |
+| Meekness | Treats recruiter and executive with same energy | Needs credit for every contribution; talks about leverage |
+| Purpose | Articulates why *this* mission specifically; 10-year arc | Optimizing next-step positioning; mission is interchangeable |
+| Protect Vulnerable | Has taken a professional risk to protect someone | Describes optimization without naming who is affected |
+| The Ratchet | Trajectory is up — more capable AND more humble | Extracted opportunities; best work in the past tense |
+| **Unintimidated** | Names fears directly; describes acting through fear; can talk about a hard call where they were scared and went anyway | Pretends they don't experience fear; or describes fear as paralyzing; or makes career decisions visibly shaped by fear of judgment |
+
+---
+
+## 06 — COMPENSATION ARCHITECTURE
+
+> **Policy under construction.** The compensation architecture below describes the structural skeleton — what exists, in what layers, paid in what currency. **The mechanics of the Trust layer (activation timing, vesting, departure scenarios, yield, tithe, beneficiary rules) are actively being designed and are not in force.** Nothing in this section should be quoted to a candidate or new hire as policy. When the architecture is finalized, this section moves from `IN PROGRESS` to `LOCKED` and the operational details (mechanics, deeds, schedules) are written below.
+
+### 06.1 — The Three Layers `IN PROGRESS`
+
+Compensation flows through three layers. The structure is settled. The mechanics of layers 2 and 3 are being designed.
+
+| | Layer 1 — Salary | Layer 2 — Economic Rights | Layer 3 — Trust |
+|---|---|---|---|
+| **What it is** | Cash compensation, paid monthly | Permanent claim on the value the person helps create across the ecosystem | Long-term provision held in a sovereign trust structure |
+| **On-chain form** | USDC | **Fragmints** — Economic Rights are the formal claim; Fragmints are the on-chain representation | TBD |
+| **When it activates** | Day 1 | Day 1 accrual | TBD |
+| **Mechanics** | `LOCKED` (see §06.2) | `IN PROGRESS` | `IN PROGRESS` |
+
+**Terminology note `LOCKED`:** The formal name of the second layer is **Economic Rights**. *Fragmints* are how Economic Rights are represented on-chain. Internally and externally, the formal noun is *Economic Rights*; *Fragmints* is used when discussing the on-chain representation specifically. This replaces earlier internal language that called this layer "ERTs" or "Economic Rights Tokens" — the term *token* is no longer used because Economic Rights are the underlying claim, not a token.
+
+### 06.2 — Salary Classes `LOCKED`
+
+Flat, non-negotiable. Everyone in the same class gets the same number. No comparison, no negotiation, no envy.
+
+| Class | Who | Annual Salary |
+|---|---|---|
+| **F-Class (Founders)** | $&#123;FOUNDER_CEO&#125;, $&#123;FOUNDER_CFO&#125;, $&#123;FOUNDER_ONYM&#125; | $&#123;F_CLASS_SALARY&#125; |
+| **S-Class (Stewards)** | Vision Council seats 4–7 (open) | $&#123;S_CLASS_SALARY&#125; |
+| **G-Class (Governance)** | Ministers, Governor | $&#123;G_CLASS_SALARY&#125; |
+| **C-Class (Chiefs)** | $&#123;CTO&#125;, $&#123;CPO&#125;, $&#123;CMO&#125;, $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125;, $&#123;PARTNER_PRODUCT&#125; + CAIO, CoS hire | $&#123;C_CLASS_SALARY&#125; |
+| **P-Class (Partners)** | All other Partners | $&#123;P_CLASS_SALARY&#125; |
+| **A-Class (Associates)** | All Associates | $&#123;A_CLASS_SALARY&#125; |
+
+**No-Stacking Rule `LOCKED`:** A person holding multiple seats receives compensation at their **highest class only**. Additional seats are service, not additional income. Stacking compensation across seats incentivizes accumulating seats for income rather than service. That is Mammon.
+
+### 06.3 — Economic Rights `IN PROGRESS`
+
+Economic Rights are the formal claim. Fragmints are the on-chain representation. The accrual mechanism, vesting curve, and treatment on departure are being designed. Until that work is complete, no Economic Rights are being formally issued and no Fragmints are being minted.
+
+What is settled:
+- Economic Rights are **permanent and irrevocable** once accrued — they are not equity, not options, not tokens, not subject to clawback for any reason except those defined in Canon (fraud, theft, betrayal of the Nation, intentional harm).
+- Economic Rights survive departure — the claim does not end when the role ends.
+- The on-chain representation lives on the FIRMA L2 (OP Stack) and is auditable.
+
+What is `IN PROGRESS`:
+- Accrual mechanics — how Economic Rights accumulate over time and against what work
+- Valuation — how Economic Rights are priced relative to the underlying claim
+- Distribution mechanics — how dividends or value flows reach the holder
+- Tax and entity treatment across jurisdictions
+- The relationship between the contribution accrual layer and the on-chain Fragmint representation
+
+### 06.4 — Trust `IN PROGRESS`
+
+The Trust layer provides long-term sovereign provision held in trust structure. The full mechanics — activation timing, vesting, departure scenarios, yield, humanitarian tithe percentage, beneficiary rules, jurisdictional structure (Cook Islands, Cayman, or other) — are actively being designed.
+
+What is settled in principle:
+- The Trust is structured around provision, not extraction — boring money is holy money
+- A humanitarian tithe to CIK is anticipated to be hardcoded into the trust deed (percentage `IN PROGRESS`)
+- Anti-Mammon and Anti-Baal provisions (§06.5) apply regardless of which mechanics are chosen
+
+What is `IN PROGRESS`:
+- Activation timing (Day 90, Year 2, or other)
+- Vesting schedule (cliff, graded, immediate, or other)
+- Yield mechanics (perpetual, term-limited, or other)
+- Departure scenarios (yield continues, yield stops, conditional, or other)
+- Beneficiary and succession rules
+- Trust jurisdiction and structure
+- Tithe percentage and recipient mechanics
+
+This is the single largest open work-stream in People Ops. Until it is finalized, no Trust is being opened for any team member and no offer letter references the Trust as an active benefit.
+
+### 06.5 — Anti-Mammon / Anti-Baal Provisions `LOCKED`
+
+These principles apply across all three compensation layers and will be hardcoded into the Trust deed when finalized.
+
+**Anti-Mammon:**
+- Flat salary bands — no negotiation, no comparison, no envy
+- No lump sum, no exit event, no IPO to chase
+- Wealth is structurally outward-flowing
+- On-chain transparency
+
+**Anti-Baal:**
+- **No clawback for speaking truth** — compensation cannot be revoked, reduced, or delayed for disagreeing with leadership, voting against a proposal, prophesying correction, or raising concerns
+- **Covenant breach is defined in Canon, not by a manager's opinion** — fraud, theft, betrayal of the Nation, intentional harm. NOT disagreement, dissent, prophecy, or leaving.
+- **No golden handcuffs** — leave when God says leave
+
+---
+
+## 07 — BENEFITS
+
+> **Policy under construction.** The benefits framework — healthcare, time off, retirement, connectivity, education, agentics training, daily provision at office locations, deployment support — is being designed. Nothing here should be quoted to a candidate or new hire until this section is finalized and moves to `LOCKED`.
+
+What is settled in principle:
+- **Salary is paid in USDC.** Globally. This is the only `LOCKED` element in the benefits framework.
+- **Deployment is part of the work, not a perk.** Every team member at the appropriate class participates in at least one deployment per year. The logistics, family travel policy, accommodation, and support package around deployment are `IN PROGRESS`.
+
+What is `IN PROGRESS`:
+- Healthcare framework
+- Time off framework
+- Retirement framework
+- Connectivity (devices, internet, equipment) framework
+- Higher education and continuing education framework
+- Agentics training framework
+- Daily provision at office locations
+- Deployment support package (family travel, accommodation, per-diem, insurance)
+- Vendor / PEO selection (Rippling, Deel, Remote.com — under evaluation)
+- Geographic and entity-specific variations (US, PR, PH, ES, ZA, Panama)
+
+When the benefits framework is finalized, the operational detail lives here. Until then, individual benefit conversations happen 1:1 between $&#123;CPO&#125; and the team member, with $&#123;FOUNDER_CFO&#125; in the room for anything financial.
+
+---
+
+## 08 — GROWTH
+
+> **Class system under construction.** The class system that names the relationships people hold to the work and the network is being redesigned. The earlier four-class framework (Advisor / Fellow / Associate / Partner) is no longer in force, and a new class structure is `IN PROGRESS`. Until the new structure is finalized, this section holds the **doctrine** that governs growth — the principle, the failure mode, the cultural posture — and leaves the operational class definitions as placeholder.
+
+### 08.1 — The Class System `IN PROGRESS`
+
+The class system describes the relationships a person can hold to the work and the network — what they own, what authority they carry, how they are compensated, how they can move between modes. The earlier framework is no longer in force.
+
+What is settled in principle:
+- Classes describe **relationships to the work**, not corporate titles or rungs on a ladder
+- Movement between classes is bidirectional and honored — a person stepping up is celebrated, a person stepping into a different mode is also celebrated
+- Class is decoupled from compensation (§06.2 salary classes are operational bands, not the same as growth classes)
+
+What is `IN PROGRESS`:
+- The class names themselves
+- The number of classes
+- The definitions of each class — what it is, what it owns, what it carries, how it is held
+- Movement criteria between classes
+- Compensation alignment between class and salary band
+- Onboarding and offboarding logic per class
+
+When this work is finalized, the operational definitions live here and Section 08.3 (transition mechanics) is filled in.
+
+### 08.2 — The Growth Principle `LOCKED`
+
+The principle survives the class redesign. Whatever the classes end up being called, this is how growth works at Firma Labs.
+
+> Growth at Firma Labs is a function of **trust extended** and **weight carried**, not time served.
+
+- A person who steps up and carries more than their current class normally carries grows into the next class, full stop.
+- A person who wants to step into a different mode — go build their own thing, return as something else — is honored, not punished.
+- **"We would rather you fail at greatness than succeed at your own limits."** Growth trajectories are drawn for the hardest swing, not the safe landing.
+
+**On the failure mode we actually care about:** The failure mode is fear-shaped — staying small, hitting a safe target, taking the shot you knew you could make, plateauing into competence. Fear that masquerades as prudence is still fear. The career we are happiest to promote is the one where the person admits they were scared, swung anyway, missed, recovered, and swung again bigger. The career we are slowest to promote is the one where every decision has visibly avoided risk. Trust extends to the person who takes the swing. (See §04 — On Fear.)
+
+### 08.3 — Class Transitions `IN PROGRESS`
+
+The mechanics of moving between classes — scoping the new role, compensation conversation, announcement — are pending the §08.1 redesign. Until then, transitions are handled 1:1 between $&#123;FOUNDER_CEO&#125;, $&#123;CPO&#125;, and the team member.
+
+---
+
+## 09 — WHERE WE WORK `LOCKED`
+
+Five physical anchors (handbook language). Where you live is your decision. Where you work from is your decision. What matters is the work gets done and the family thrives.
+
+| Anchor | Function |
+|---|---|
+| **Dallas HQ** (TX) | Operational center. Executive, core engineering, finance, people ops. Biggest decisions in one room. |
+| **The Ranch** (outside Dallas) | Regenerative farming tech, hardware prototyping, land-based sovereignty made real. Builders come here to make things with their hands. |
+| **Philippines offices** (APAC) | Global events and field operations. Devcon booths, ETH events, FIT global logistics. |
+| **Panama** (LATAM) | Remote-friendly, crypto-friendly. Hub for team members who work best on the move. |
+| **Puerto Rico retreat** | Yearly reunion for the whole family. Not a conference — a gathering. Work from here any time. |
+
+**Additional operational locations (not anchors, functional):**
+- San Francisco — Presidio office (acquire or lease). Engineer on-site. FIT Bay Area. $&#123;FOUNDER_CEO&#125; 1 wk/mo.
+- Orange County — seedbase HQ (Phase 2)
+- Cape Town, SA — seedbase HQ (long-term; $&#123;ASSOCIATE_CIK_DEPLOYMENT&#125;'s domain)
+- El Salvador — seedbase HQ 2, land, settlement
+- Bataan, PH — FIT Global HQ (primary field ops hub)
+
+---
+
+## 10 — ENTITY ROUTING `LOCKED`
+
+Where each person gets paid. Set up in Rippling before any offer goes out.
+
+| Entity | Jurisdiction | Who | PEO/EOR |
+|---|---|---|---|
+| **firma labs** | Puerto Rico (Act 60) | Engineering, Product, EIR, CFO, People Ops, $&#123;TEAM_FIRMA_LABS_1&#125;, $&#123;TEAM_FIRMA_LABS_2&#125;, $&#123;CMO&#125;, $&#123;TEAM_FIRMA_LABS_3&#125;, $&#123;TEAM_FIRMA_LABS_4&#125;, $&#123;TEAM_FIRMA_LABS_5&#125;, $&#123;TEAM_FIRMA_LABS_6&#125;, $&#123;TEAM_FIRMA_LABS_7&#125;, $&#123;TEAM_FIRMA_LABS_8&#125;, $&#123;TEAM_FIRMA_LABS_9&#125;, engineers, $&#123;TEAM_FIRMA_LABS_10&#125;, $&#123;PARTNER_RANCH&#125;, $&#123;TEAM_FIRMA_LABS_11&#125; | Rippling |
+| **seedbase** | Texas (Series LLC) | $&#123;PARTNER_SEEDBASE&#125;, $&#123;PARTNER_SEEDBASE_PROGRAMS&#125;, $&#123;ASSOCIATE_SEEDBASE_1&#125;, $&#123;ASSOCIATE_SEEDBASE_2&#125;, $&#123;PARTNER_STRATEGIC_RELATIONS&#125;, $&#123;PARTNER_INSPIRATION&#125;, facility staff | Rippling / Gusto |
+| **CIK** | Wyoming (Non-profit) | $&#123;PARTNER_CIK_DEPLOYMENT&#125;, $&#123;PARTNER_CIK_ADVANCEMENT&#125;, $&#123;ASSOCIATE_CIK_DEPLOYMENT&#125;, $&#123;PARTNER_CIK_MISSION_FAMILIES&#125;, $&#123;ASSOCIATE_CIK_PM&#125;, $&#123;ASSOCIATE_CIK_METAVERSE&#125; | Rippling |
+| **508(c)(1)(a) Ministry** | Texas | $&#123;MINISTRY_LEAD&#125;, $&#123;ASSOCIATE_EMBASSY_CHAPLAIN&#125; | Direct |
+| **FIT Entity** | Philippines / Puerto Rico | $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125;, $&#123;PARTNER_FIT&#125;, $&#123;ASSOCIATE_FIT_1&#125;, $&#123;ASSOCIATE_FIT_2&#125;, $&#123;ASSOCIATE_FIT_3&#125;, Country Leads | Deel / Remote.com |
+| **Onym** | TBD | $&#123;FOUNDER_ONYM&#125; + Onym team | TBD |
+| **Foundation** | Cayman | $&#123;MINISTER_SOVEREIGN_WEALTH&#125; upon appointment | Direct |
+
+**Setup priority:** Rippling account live before any offer letters go out.
+
+---
+
+## 11 — REPORTING LINES `LOCKED`
+
+### 11.1 — EDEN Rule (Governance vs. Operations)
+
+**EDEN is governance-only.** Ministry Council sets mandate and direction. **EDEN NEVER crosses over into OpCo day-to-day management or reporting lines.** OpCo reporting lines stay inside the OpCo (firma labs, seedbase, CIK, Onym).
+
+**Never write a JD or org doc that has someone reporting up to an EDEN seat for operational management.** Ministers hold a direction-setting seat; the person is not their employee.
+
+### 11.2 — CIK Missions Reporting `LOCKED`
+
+Founding-phase structure (all three Partners report directly to $&#123;FOUNDER_CEO&#125; as peers):
+
+- **$&#123;PARTNER_CIK_DEPLOYMENT&#125;** — Partner, Deployment → **reports to $&#123;FOUNDER_CEO&#125;**
+  - $&#123;ASSOCIATE_CIK_DEPLOYMENT&#125; (Associate, Deployment) → reports to $&#123;PARTNER_CIK_DEPLOYMENT&#125;
+- **$&#123;PARTNER_CIK_ADVANCEMENT&#125;** — Partner, Advancement → **reports to $&#123;FOUNDER_CEO&#125; (PEER to $&#123;PARTNER_CIK_DEPLOYMENT&#125;)**
+  - $&#123;ASSOCIATE_CIK_PM&#125; (Associate, PM) → reports to $&#123;PARTNER_CIK_ADVANCEMENT&#125;
+  - $&#123;ASSOCIATE_CIK_METAVERSE&#125; (Associate, Metaverse Evangelism) → reports to $&#123;PARTNER_CIK_ADVANCEMENT&#125;
+- **$&#123;PARTNER_CIK_MISSION_FAMILIES&#125;** — Partner, Mission Families → **reports to $&#123;FOUNDER_CEO&#125;** (also advises Ministry of Mercy at EDEN level — advisory only, not a reporting line)
+
+### 11.3 — firma labs Executive
+
+- $&#123;FOUNDER_CEO&#125; → Vision Council + EDEN Chair
+- $&#123;FOUNDER_CFO&#125; → dual-hat: Minister of Finance (EDEN) + CFO/COO firma labs (OpCo)
+- $&#123;CTO&#125; → CTO firma labs → reports to $&#123;FOUNDER_CEO&#125;
+- $&#123;CPO&#125; → CPO → reports to $&#123;FOUNDER_CEO&#125;; partners with $&#123;FOUNDER_CFO&#125; on comp and entity
+- $&#123;PARTNER_PRODUCT&#125; → Partner, Product → reports to $&#123;FOUNDER_CEO&#125;
+- $&#123;CMO&#125; → Partner, Marketing/Brand → reports to $&#123;FOUNDER_CEO&#125;
+- $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125; → Partner, Global Partnerships → reports to $&#123;FOUNDER_CEO&#125;
+  - $&#123;PARTNER_FIT&#125; → Partner, FIT → reports to $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125;
+    - $&#123;ASSOCIATE_FIT_1&#125;, $&#123;ASSOCIATE_FIT_2&#125;, $&#123;ASSOCIATE_FIT_3&#125;, Country Leads → report to $&#123;PARTNER_FIT&#125;
+- $&#123;TEAM_FIRMA_LABS_2&#125; → Fellow transitioning to Partner, Vision Operations → reports to $&#123;FOUNDER_CEO&#125;
+
+### 11.4 — seedbase (Dallas)
+
+- $&#123;PARTNER_SEEDBASE&#125; → Partner, seedbase → reports to $&#123;FOUNDER_CEO&#125;
+- $&#123;PARTNER_SEEDBASE_PROGRAMS&#125; → Partner, seedbase Programs → reports to $&#123;PARTNER_SEEDBASE&#125;
+  - $&#123;ASSOCIATE_SEEDBASE_1&#125;, $&#123;ASSOCIATE_SEEDBASE_2&#125;, facility staff → report to $&#123;PARTNER_SEEDBASE_PROGRAMS&#125;
+- $&#123;PARTNER_STRATEGIC_RELATIONS&#125; → Partner, Strategic Relations → reports to $&#123;PARTNER_SEEDBASE&#125;
+- $&#123;PARTNER_INSPIRATION&#125; → Partner, Inspiration → reports to $&#123;PARTNER_SEEDBASE&#125;
+
+### 11.5 — Ranch / Embassy
+
+- $&#123;PARTNER_RANCH&#125; → Partner, Ranch → reports to $&#123;FOUNDER_CEO&#125;
+- $&#123;ASSOCIATE_EMBASSY_CHAPLAIN&#125; → Associate, Embassy Chaplain (reports to $&#123;DISCERNMENT_LEAD&#125; for Embassy) + Armor Bearer (reports to $&#123;FOUNDER_CEO&#125; directly)
+
+### 11.6 — Onym
+
+- $&#123;FOUNDER_ONYM&#125; → Partner, Onym → Vision Council seat; operates under IMA with SWF
+- Onym advisors ($&#123;ONYM_ADVISOR_1&#125;, $&#123;ONYM_ADVISOR_2&#125;, $&#123;ONYM_ADVISOR_3&#125;, $&#123;ONYM_ADVISOR_4&#125;, $&#123;ONYM_ADVISOR_5&#125;) → advise $&#123;FOUNDER_ONYM&#125;
+
+---
+
+## 12 — ONBOARDING `LOCKED`
+
+### 12.1 — The Timeline
+
+| Stage | What Happens |
+|---|---|
+| **Day 1 — Arrival** | Welcome packet (Canon excerpt, Vision doc, handbook, org chart). Device setup. Embassy tour (Dallas hires) or virtual tour + $&#123;FOUNDER_CEO&#125; welcome (remote). **CoS agent initialized.** Compensation explained in person — salary, Economic Rights / Fragmints (the layers in §06), and the fact that the Trust mechanics are still being designed. |
+| **Week 1 — Orientation** | Division orientation. Cross-functional mapping. 90-day goals set with reporting senior. Agentic onboarding — CoS agent, Knowledge Harness, domain swarm. **First commit/shipped thing before Week 1 ends where possible.** |
+| **Month 1 — Ship** | Ship something real in production or in front of a customer. Not a tutorial project. The reporting senior ensures first project is shippable, meaningful, and within reach. |
+| **Day 30 — Check-In** | 30-min $&#123;CPO&#125; check-in. Culture pulse. Manager feedback on 90-day goal tracking. |
+| **Day 90 — Review** | Performance conversation. Trajectory discussion. If not aligned — clean separation, salary paid, no hard feelings. **Trust mechanics activation `IN PROGRESS` (§06.4) — no Trust is currently being opened for any team member until the design is finalized.** |
+| **Year 1 — First deployment** | Every team member at the appropriate class goes on at least one deployment within first 12 months. (Deployment support package `IN PROGRESS` — see §07.) |
+
+### 12.2 — Day 1 Package Contents
+
+What is `LOCKED`:
+- **Firma Labs Handbook** (printed, clean copy)
+- **Canon excerpt** (relevant to their role)
+- **Vision document**
+- **Org chart** (division-specific view)
+- **Device setup instructions**
+- **CoS agent login and quickstart**
+- **Handwritten note from their reporting senior**
+
+What is `IN PROGRESS` (pending §07 finalization):
+- Benefits enrollment materials
+- Connectivity equipment
+- PEO / payroll system onboarding
+
+### 12.3 — The Covenant Conversation `LOCKED`
+
+Somewhere in Week 1 — the new hire's reporting senior + $&#123;DISCERNMENT_LEAD&#125; + new hire sit together. Not interview-stage discernment — covenant formation. The new hire has already been screened, interviewed, discerned, offered. This is the *welcome*.
+
+$&#123;DISCERNMENT_LEAD&#125; covers:
+- The spiritual dimension of the work (not optional to acknowledge)
+- The covenant they are entering as a Firma Labs team member
+- How to raise a concern (to reporting senior first, $&#123;CPO&#125; second, $&#123;DISCERNMENT_LEAD&#125; third)
+- The door is open to leave well
+
+---
+
+## 13 — HOW WE LEAVE `LOCKED` (in frame) · `IN PROGRESS` (in mechanics — see §06)
+
+### 13.1 — The Frame (Handbook)
+
+> Most companies treat departure as a failure mode. We treat it as the natural completion of a season.
+
+### 13.2 — What Stays With You
+
+- **Economic Rights** vest as accrued. Permanent, irrevocable. Pay value from everything you helped build for as long as the ecosystem runs. (Mechanics `IN PROGRESS` — see §06.3.)
+- **Trust** — `IN PROGRESS`. The mechanics governing what happens to a Trust on departure are being designed (see §06.4).
+- **Relationship with Firma Labs** — does not end. Come back to advise. Join another deployment. Step into a different mode.
+
+### 13.3 — What We Ask of You
+
+- Leave well
+- Hand off with honor
+- Tell the truth about why you're going
+- Give feedback you wish someone had given six months earlier
+- Close the loops you opened
+- Bless the people coming up behind you
+
+### 13.4 — Covenant Breach (Internal Only — Not Handbook)
+
+Compensation is forfeited per the mechanics defined in the Trust deed when finalized. Covenant breach is defined in Canon, not management opinion:
+
+- Fraud
+- Theft
+- Betrayal of the Nation
+- Intentional harm
+
+**NOT** disagreement, dissent, prophecy, speaking truth, voting against leadership, or leaving. These are protected under Anti-Baal.
+
+### 13.5 — Death `IN PROGRESS`
+
+Trust succession on death is part of the §06.4 mechanics design. The principle is that compensation passes to named beneficiaries; the operational detail (which beneficiaries are named, how succession is administered, what continues vs. what stops) is `IN PROGRESS`.
+
+### 13.6 — Nobody Stays Out of Fear `LOCKED`
+
+A covenant protection. Pairs with Anti-Baal (§06.5).
+
+> **Nobody stays at Firma Labs out of fear.**
+>
+> Not fear of losing the trust. Not fear of leaving the mission. Not fear of what people will say. Not fear of admitting the season is over. Not fear of starting over somewhere else.
+>
+> If you're staying out of fear, you're already gone — go in peace.
+
+Operationally, this means:
+
+- **$&#123;CPO&#125; and $&#123;DISCERNMENT_LEAD&#125; actively check for it.** In Day 30 check-ins, in 90-day reviews, in the rare moment someone signals they're done but stays anyway. The question is asked plainly: *are you here because you want to be, or because you're afraid not to be?*
+- **The trust does not become a leash.** Anti-Baal already protects against the trust being weaponized for compliance. This goes one step further — the trust does not become a *self-imposed* leash either. We tell people, plainly, that staying for the river when the work no longer fits is not what the river is for.
+- **Leaving well is honored, including the leaving that comes from God saying go.** A person who hears a call elsewhere and follows it is not betraying the Nation. They are participating in the same Vine the Nation is rooted in.
+- **The door stays open both ways.** The handbook already names that former team members are family and can return. The reverse is also true — if you're afraid to leave because you might want to come back, that fear is also not a reason to stay.
+
+This is the operational counterpart to "no clawback for speaking truth." Anti-Baal protects the person who stays and prophesies. This protects the person who leaves in obedience to a different call.
+
+---
+
+## 14 — HIRING PLAN — THREE-PHASE BUILD `ACTIVE`
+
+~40 named team members + ~20 additional hires across three phases.
+
+### 14.1 — Phase 1 — Week 1–4: Foundation `ACTIVE`
+
+**Immediate (Week 1):** Onboard all ~40 named team members — offer letters, JDs, benefits enrollment. $&#123;DISCERNMENT_LEAD&#125; in every interview cycle from Day 1.
+
+**Critical Hires (Weeks 1–4):**
+- **Partner — Vision Operations (Chief of Staff)** — $&#123;FOUNDER_CEO&#125;'s operational counterpart. C-Class. Likely referral-based. Engage recruiter immediately. *Note: $&#123;TEAM_FIRMA_LABS_2&#125; is currently being transitioned into a hybrid of this role + missions strategy — see `nic-role-definition.html`.*
+- **Partner — AI & Agentics (CAIO)** — Owns the entire agentic layer. C-Class. Post JD on AI/ML channels, Hacker News, crypto-AI crossover communities.
+- **1 AI Engineer** — P-Class. Under CAIO/$&#123;CTO&#125;.
+- **2 Blockchain Engineers** — P-Class. OP Stack experience preferred. Optimism Discord, ETH job boards.
+- **Begin $&#123;ASSOCIATE_EMBASSY_CHAPLAIN&#125; TN-1 visa** — Clergy classification (Canadian). Immigration attorney immediately. Ordination docs, transcripts, ministry letter.
+
+### 14.2 — Phase 2 — Month 1–3: Operational Build `ACTIVE`
+
+- Contract industrial design firm — RFP to 3–5 firms (Synapse, Bresslergroup, or similar). $&#123;TEAM_FIRMA_LABS_10&#125; leads evaluation.
+- Hire FIT Country Leads x3–5 — A-Class. $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125;/$&#123;PARTNER_FIT&#125; source through networks.
+- Hire front desk/facility staff x3–4 — A-Class. Dallas. $&#123;PARTNER_SEEDBASE_PROGRAMS&#125; leads.
+- Hire ranch staff x2–3 — A-Class. $&#123;PARTNER_RANCH&#125; leads.
+- Hire embassy staff x2 — A-Class. $&#123;DISCERNMENT_LEAD&#125; leads.
+- **Partner — Hardware Operations** — P-Class. $&#123;TEAM_FIRMA_LABS_10&#125; + $&#123;FOUNDER_CEO&#125;. NPI/supply chain background required.
+- Contract UX/design agency (Clay or equivalent) — $&#123;TEAM_FIRMA_LABS_9&#125; + $&#123;PARTNER_PRODUCT&#125; evaluate.
+
+### 14.3 — Phase 3 — Month 3–6: Scale `ACTIVE`
+
+- Formalize PH team — $&#123;ASSOCIATE_FIT_1&#125;, $&#123;ASSOCIATE_FIT_2&#125;, $&#123;ASSOCIATE_FIT_3&#125; officially onboarded through Deel/Remote.com.
+- SE Asia manufacturing partnerships — $&#123;TEAM_FIRMA_LABS_1&#125; + Hardware Ops Partner. Factory floor visits, NPI setup.
+- Additional FIT global hires — per $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125;/$&#123;PARTNER_FIT&#125; pipeline from conferences.
+- Begin seedbase OC and El Salvador location planning.
+
+### 14.4 — FIT Bataan Activation `ACTIVE`
+
+Parallel track: $&#123;ASSOCIATE_FIT_1&#125; and $&#123;ASSOCIATE_FIT_2&#125; activating on two priorities:
+1. Finding coworking space in Bataan as temporary FIT HQ
+2. Researching how top crypto brands (Base Global, OKX) run global event logistics, merch fulfillment, booth deployment
+Target capability: ship booth infrastructure, merch, and hardware to any global event within 72 hours.
+Salaries paid in USDC via Remote.com / Deel. Flights and accommodation covered separately by firma labs.
+
+### 14.5 — Year 1 People Budget
+
+Salary-only budget. Benefits load and any compensation outside the salary class table are pending §06 and §07 finalization.
+
+| Category | Count | Annual Salary Cost |
+|---|---|---|
+| F-Class (Founders) | $&#123;F_CLASS_COUNT&#125; | $&#123;YEAR_1_F_CLASS_TOTAL&#125; |
+| G-Class (Governance) | $&#123;G_CLASS_COUNT&#125; | $&#123;YEAR_1_G_CLASS_TOTAL&#125; |
+| C-Class (Chiefs) | $&#123;C_CLASS_COUNT&#125; | $&#123;YEAR_1_C_CLASS_TOTAL&#125; |
+| P-Class | $&#123;P_CLASS_COUNT&#125; | $&#123;YEAR_1_P_CLASS_TOTAL&#125; |
+| A-Class | $&#123;A_CLASS_COUNT&#125; | $&#123;YEAR_1_A_CLASS_TOTAL&#125; |
+| Retainers / external counsel | $&#123;RETAINER_COUNT&#125; | $&#123;YEAR_1_RETAINERS_TOTAL&#125; |
+| Agencies / Contracts | — | $&#123;YEAR_1_AGENCIES_CONTRACTS&#125; |
+| **Salary subtotal Year 1** | **$&#123;TOTAL_HEADCOUNT&#125;** | **$&#123;YEAR_1_SALARY_SUBTOTAL&#125;** |
+| Benefits load (`IN PROGRESS` §07) | — | TBD |
+| Trust mechanics (`IN PROGRESS` §06.4) | — | TBD |
+
+When §06 and §07 are finalized, full all-in budget gets calculated here.
+
+---
+
+## 15 — POLICIES `LOCKED`
+
+Short on purpose. Policies exist where they are needed, and nowhere else.
+
+| Policy | Standard |
+|---|---|
+| **Equal opportunity** | Firma Labs is an equal opportunity employer. We hire, promote, and compensate without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or veteran status. We hire on character and capacity. |
+| **Conduct** | Harassment, bullying, retaliation, and dishonesty are incompatible with the culture we've described. If any of it appears, we address it directly and quickly. The honor values are also the conduct standard. |
+| **Privacy** | Personal information handled with the same care we demand of the systems we build for others. We don't sell data, share beyond operational need, or monitor activity beyond security/safety requirements. |
+| **Complaints** | Raise it. **Reporting senior first. $&#123;CPO&#125; in People Ops second. Independent board advisor third if needed.** We don't retaliate. We repair. |
+| **IT & security hygiene** | 2FA everywhere. Password manager. Don't share credentials. Don't click suspicious links. Security is downstream of small habits. |
+| **At-will employment** | US team members are at-will. Either side can end the relationship at any time, for any reason. Trust written as law — not a threat, an honest statement that we're choosing each other every day. |
+
+---
+
+## 16 — THINGS NOT IN THE HANDBOOK (INTERNAL-ONLY)
+
+These belong here and nowhere public-facing. They are theologically / constitutionally true but would confuse or alarm a candidate reading the handbook cold.
+
+1. **House of Saints governance** — DNA + EDEN structure, Vision Council, Elder Council, Revelatory / Prayer / Wives Councils
+2. **Abundance Over Extraction** as a Canon value — the Mammon framing
+3. **The Ratchet Only Moves Forward** — Phronema engine language
+4. **Covenant breach definitions** — Canon-defined, not management-defined
+5. **Anti-Baal provisions** — no clawback for speaking truth
+6. **The salary class numbers** — handbook does not expose specific salary figures
+7. **The Founder/Steward tier existence** — handbook frames classes simply; F-Class and S-Class are internal compensation bands not surfaced publicly
+8. **Decisive Peace as foundational principle** — internal tempo language
+9. **"On Fear" as explicit posture (§04)** — the handbook implies fearlessness through Boldness and Radical Faith but never names fear directly. The internal version names it. *Open question (§18 #8) — should it move to the handbook?*
+10. **"Unintimidated" as 7th hiring criterion** — internal-only screening dimension. Handbook lists 6.
+11. **"Nobody stays out of fear" as departure protection (§13.6)** — internal-only. Handbook's "How We Leave" implies this through the open-door framing but doesn't say it.
+
+**Items pending policy finalization** — these will become internal-only items once §06 and §07 are locked, but until then they aren't yet "things not in the handbook" because they aren't yet "things":
+- The mechanics of any humanitarian tithe percentage hardcoded into the Trust deed
+- The trust principal numbers per class
+- The benefits framework specifics
+
+---
+
+## 17 — PEOPLE OPS OWNERSHIP `LOCKED`
+
+| Function | Owner |
+|---|---|
+| Hiring pipeline | $&#123;CPO&#125; |
+| Discernment (every stage 4) | $&#123;DISCERNMENT_LEAD&#125; |
+| Offer + entity routing | $&#123;CPO&#125; + $&#123;FOUNDER_CFO&#125; |
+| Benefits framework design `IN PROGRESS` | $&#123;CPO&#125; |
+| Trust mechanics design `IN PROGRESS` | $&#123;FOUNDER_CFO&#125; + $&#123;FOUNDER_CEO&#125; |
+| Compensation decisions | $&#123;FOUNDER_CFO&#125; + $&#123;FOUNDER_CEO&#125; |
+| Class assignment | $&#123;FOUNDER_CEO&#125; (senior), $&#123;CPO&#125; (other) |
+| Day 1 onboarding | $&#123;CPO&#125; |
+| Covenant conversation | Reporting senior + $&#123;DISCERNMENT_LEAD&#125; |
+| Complaints (level 1) | Reporting senior |
+| Complaints (level 2) | $&#123;CPO&#125; |
+| Complaints (level 3) | Independent board advisor |
+| Deployment logistics | $&#123;CPO&#125; + relevant senior ($&#123;PARTNER_CIK_DEPLOYMENT&#125; for CIK missions, $&#123;PARTNER_GLOBAL_PARTNERSHIPS&#125; for FIT events) |
+| Visa / immigration | $&#123;CPO&#125; + immigration counsel |
+| Culture & all-hands | $&#123;FOUNDER_CEO&#125; + $&#123;CPO&#125; |
+
+---
+
+## 18 — WHAT'S STILL OPEN
+
+Living list. Two categories: **`IN PROGRESS`** workstreams that need to be designed and finalized, and **discussion items** that need a decision but not full design work.
+
+### 18.1 — `IN PROGRESS` Workstreams
+
+| # | Workstream | Section | Owner |
+|---|---|---|---|
+| 1 | **Economic Rights mechanics** — accrual, valuation, distribution, tax/entity treatment, relationship to on-chain Fragmint representation | §06.3 | $&#123;FOUNDER_CFO&#125; + $&#123;FOUNDER_CEO&#125; |
+| 2 | **Trust mechanics** — activation timing, vesting, departure scenarios, yield, tithe percentage, beneficiary rules, jurisdictional structure | §06.4 | $&#123;FOUNDER_CFO&#125; + $&#123;FOUNDER_CEO&#125; |
+| 3 | **Benefits framework** — healthcare, time off, retirement, connectivity, education, agentics training, daily provision, deployment support package, vendor selection | §07 | $&#123;CPO&#125; |
+| 4 | **Class system redesign** — names, number, definitions, movement criteria, compensation alignment | §08.1 | $&#123;FOUNDER_CEO&#125; + $&#123;CPO&#125; |
+| 5 | **Class transition mechanics** — scoping, compensation conversation, announcement (depends on §08.1) | §08.3 | $&#123;FOUNDER_CEO&#125; + $&#123;CPO&#125; |
+
+### 18.2 — Discussion Items
+
+| # | Question | Section | Status |
+|---|---|---|---|
+| 1 | $&#123;TEAM_FIRMA_LABS_2&#125;'s formal class — pending the §08.1 class-system redesign | §08 + `nic-role-definition.html` | `OPEN — $&#123;FOUNDER_CEO&#125; call` |
+| 2 | Does the handbook's "Fragmints" language require updating `firma-vision-canon.md` or other constitutional docs? | §02 | `OPEN — review needed` |
+| 3 | Should Abundance Over Extraction be added to the handbook's ethos chapter, or stay internal-only? | §03 | `OPEN — discuss` |
+| 4 | Does "Decisive Peace" belong in the handbook as a fifth ethos commitment, or stay as internal operational language? | §03.4 | `OPEN — discuss` |
+| 5 | Does "On Fear" (§04) belong in the handbook? Boldness and Radical Faith already imply it; naming fear directly is theologically richer but may read heavy to a first-time candidate. Decision: keep as internal-only, port to handbook as a sixth ethos commitment, or weave into existing handbook chapters? | §04 | `OPEN — discuss` |
+| 6 | Once the §06 and §07 frameworks are finalized, should the handbook's compensation and benefits chapters be rewritten to match, or kept softer/aspirational? | §06, §07 | `DEFERRED — until policy locked` |
+
+---
+
+## 19 — DOCUMENT LINEAGE
+
+This document supersedes:
+- `people-ops-playbook.html` (v4.0)
+- `firma-people-ops-master_html.html` (v3.1)
+- `core-values-hiring.html` (v1.0) — absorbed into §03 (values) and §05 (hiring)
+- The People Ops section of `org-blueprint-v3.md`
+
+This document reconciles with:
+- `firma-labs-handbook/` v1.0 (April 2026) — public-facing
+- `org-blueprint-v3.md` — governance and role definitions
+- `firma-governance-roles-reference.md` — title system
+- `nic-role-definition.html` — live Partner transition
+- `decisive-peace.html` — foundational principles
+
+Nothing in this document contradicts the Canon. Where the handbook softens language for public consumption, this doc preserves the constitutional truth underneath.
+
+---
+
+*People Ops Master · v9.0 · Working Draft · April 2026*
+*Sovereign Internal · Vision Council + People Ops only · Not for distribution*
+*Names and salary figures live in `people-ops.env` (gitignored / Obsidian-excluded). This document is safe to commit and search.*
