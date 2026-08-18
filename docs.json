@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
-  "name": "Knowledge base",
-  "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
+  "name": "The Firma Handbook",
+  "description": "Who we are, how we are built, and how we work.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#0562ef",
+    "light": "#1e78ff",
+    "dark": "#0b1015"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -21,26 +21,31 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Handbook",
+        "groups": [
+          {
+            "group": "Start here",
+            "pages": [
+              "index",
+              "handbook/who-we-are",
+              "handbook/code-of-conduct",
+              "handbook/firma-order-and-governance"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Onboarding",
         "groups": [
           {
-            "group": "Welcome",
-            "pages": ["index"]
-          },
-          {
             "group": "Your first days",
-            "pages": [
-              "onboarding/first-day",
-              "onboarding/first-week",
-              "onboarding/meet-the-team"
-            ]
+            "pages": ["onboarding/getting-started"]
           },
           {
-            "group": "Tools & access",
+            "group": "How we work",
             "pages": [
-              "onboarding/tools/laptop-setup",
-              "onboarding/tools/account-access",
-              "onboarding/tools/vpn-setup"
+              "onboarding/work-and-autonomy",
+              "onboarding/where-we-work"
             ]
           }
         ]
@@ -49,48 +54,16 @@
         "tab": "HR & People",
         "groups": [
           {
-            "group": "Overview",
-            "pages": ["hr-people/index"]
+            "group": "Your life here",
+            "pages": ["hr-people/compensation", "hr-people/growth"]
           },
           {
-            "group": "Benefits & time off",
-            "pages": [
-              "hr-people/benefits",
-              "hr-people/time-off"
-            ]
+            "group": "Joining and leaving",
+            "pages": ["hr-people/how-we-hire", "hr-people/how-we-leave"]
           },
           {
-            "group": "Growth & pay",
-            "pages": [
-              "hr-people/performance-reviews",
-              "hr-people/compensation/index",
-              "hr-people/compensation/salary-bands",
-              "hr-people/compensation/equity-overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "IT & Security",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["it-security/index"]
-          },
-          {
-            "group": "Access & devices",
-            "pages": [
-              "it-security/access-requests",
-              "it-security/device-policy"
-            ]
-          },
-          {
-            "group": "Security training",
-            "pages": [
-              "it-security/security-training/index",
-              "it-security/security-training/phishing",
-              "it-security/security-training/data-handling"
-            ]
+            "group": "How we assess",
+            "pages": ["hr-people/people-science-and-ops"]
           }
         ]
       },
@@ -98,82 +71,28 @@
         "tab": "Policies",
         "groups": [
           {
-            "group": "Overview",
-            "pages": ["policies/index"]
+            "group": "Policies",
+            "pages": ["policies/policies", "policies/firmagentics"]
           },
           {
-            "group": "Conduct & spend",
-            "pages": [
-              "policies/code-of-conduct",
-              "policies/expense-reimbursement",
-              "policies/travel-policy"
-            ]
-          },
-          {
-            "group": "Remote work",
-            "pages": [
-              "policies/remote-work/index",
-              "policies/remote-work/home-office-setup",
-              "policies/remote-work/time-zones"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Engineering",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["engineering/index"]
-          },
-          {
-            "group": "Setup & deployment",
-            "pages": [
-              "engineering/dev-setup",
-              "engineering/deployment"
-            ]
-          },
-          {
-            "group": "Incident response",
-            "pages": [
-              "engineering/incident-response/index",
-              "engineering/incident-response/on-call",
-              "engineering/incident-response/postmortem"
-            ]
-          },
-          {
-            "group": "Architecture",
-            "pages": [
-              "engineering/architecture/index",
-              "engineering/architecture/services-overview",
-              "engineering/architecture/data-models"
-            ]
+            "group": "Reference",
+            "pages": ["handbook/glossary"]
           }
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
-        "label": "Submit IT ticket",
-        "href": "/it-security/access-requests"
+        "label": "The Portal",
+        "href": "https://portal.firmalabs.org"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Employee portal",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "github": "https://github.com/firma-labs"
     }
   }
 }
